@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace WebApplication1
+{
+    public partial class WebForm1 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku1.Text + "&nombres=" + name1.Text + "&price=" + price1.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Refrigeradora con amplio espacio y dos puertas, tenologia ThinQ " + "&url=" + Producto1.ImageUrl) ;
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku2.Text + "&nombres=" + name2.Text + "&price=" + price2.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Refrigeradora con amplio espacio. Marca Samsung" + "&url=" + Producto2.ImageUrl);
+
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku3.Text + "&nombres=" + name3.Text + "&price=" + price3.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Refrigeradora con amplio espacio. Marca BLACKLINE" + "&url=" + Producto3.ImageUrl);
+
+        }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku4.Text + "&nombres=" + name4.Text + "&price=" + price4.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Lavadora con amplio espacio. Marca LG TurboDrum Blanca" + "&url=" + Producto4.ImageUrl);
+
+        }
+
+        protected void Button5_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku5.Text + "&nombres=" + name5.Text + "&price=" + price5.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Lavadora con amplio espacio. Marca LG Negra" + "&url=" + Producto5.ImageUrl);
+
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku6.Text + "&nombres=" + name6.Text + "&price=" + price6.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Licuadora Marca Oster con 5 botones Negra" + "&url=" + Producto6.ImageUrl);
+
+        }
+
+        protected void Button7_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku7.Text + "&nombres=" + name7.Text + "&price=" + price7.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Cocina de 4 ornillas Marca Inox" + "&url=" + Producto7.ImageUrl);
+
+        }
+
+        protected void Button8_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx?sku=" + sku8.Text + "&nombres=" + name8.Text + "&price=" + price8.Text + "&descripcion= Alta tecnologia y rendimiento para su familia , Cocina de 4 ornillas Marca Indurama" + "&url=" + Producto8.ImageUrl);
+
+        }
+    }
+}

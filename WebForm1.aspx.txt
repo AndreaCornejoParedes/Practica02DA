@@ -1,0 +1,256 @@
+</head>
+<body class="animsition">
+	
+	<!-- Header -->
+	<header class="header-v4">
+		
+		<div class="container-menu-desktop">
+			<!-- Topbar -->
+			<div class="top-bar">
+				<div class="content-topbar flex-sb-m h-full container">
+					<div class="left-top-bar">
+						Curso de Desarrollo de Aplicaciones Grupo 02
+					</div>			
+				</div>
+			</div>
+
+			<div class="wrap-menu-desktop how-shadow1">
+				<nav class="limiter-menu-desktop container">
+					
+					<!-- Menu -->		
+					<a href="#" class="logo">
+						<img src="images/icons/logo-1.png" alt="IMG-LOGO"/>
+					</a>
+					<div class="menu-desktop">
+						<ul class="main-menu">
+							<li>
+								<a href="#l">Inicio</a>
+								
+							</li>
+
+							<li>
+								<a href="#">Tienda</a>
+							</li>
+
+							<li class="label1" data-label1="hot">
+								<a href="#">Recientes</a>
+							</li>
+
+							<li>
+								<a href="#">Blog</a>
+							</li>
+
+							<li>
+								<a href="#l">Nosotros</a>
+							</li>
+
+							<li>
+								<a href="#">Contacto</a>
+							</li>
+						</ul>
+					</div>	
+					
+
+					
+				</nav>
+			</div>	
+		</div>
+
+		
+	</header>
+	
+	<!-- Productos -->
+	<div class="bg0 m-t-23 p-b-140">
+		<div class="container">
+	
+			<div class="row isotope-grid">
+				<form runat="server">
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+					<!-- Block2 -->
+					<div class="block2" runat="server">
+						<div class="block2-pic hov-img0">
+							
+							<asp:Image ID="Producto1" runat="server" ImageUrl="images/product-1.jpg" />
+							<asp:Button ID="Button1" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button1_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name1" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Refrigeradora LG Side by Side 601L con Puerta Mágica GS65SDPN Plateada"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price1" runat="server" Text="S/ 3,299.00"></asp:Label>
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku1" runat="server" Text="SKU:342462" ForeColor="#669999"></asp:Label>
+							</div>
+						
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							
+							<asp:Image ID="Producto2" runat="server" ImageUrl="images/product-2.jpg"/>
+							<asp:Button ID="Button2" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button2_Click" />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name2" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Refrigeradora Samsung Top Freezer 300 L RT29K500JS8/PE Inox"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price2" runat="server" Text="S/ 1,299.00"></asp:Label>
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku2" runat="server" Text="SKU:398439" ForeColor="#669999"></asp:Label>
+							</div>
+								
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							
+							 <asp:Image ID="Producto3" runat="server" ImageUrl="images/product-3.jpg" />
+
+							<asp:Button ID="Button3" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button3_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name3" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Refrigeradora BLACKLINE Frost 215L 1PD"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price3" runat="server" Text="S/ 649.00"></asp:Label>
+							<asp:Label class="stext-105 cl3 stext-104" ID="sku3" runat="server" Text="SKU:993372" ForeColor="#669999"></asp:Label>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							<asp:Image ID="Producto4" runat="server" ImageUrl="images/product-4.jpg" />
+							<asp:Button ID="Button4" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button4_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name4" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Lavadora LG Smart Inverter Carga Superior TS1365NTP 13 Kg Blanca"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price4" runat="server" Text="S/ 1,199.00"></asp:Label>
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku4" runat="server" Text="SKU:333272" ForeColor="#669999"></asp:Label>
+							</div>
+
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							<asp:Image ID="Producto5" runat="server" ImageUrl="images/product-5.jpg" />
+							<asp:Button ID="Button5" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button5_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name5" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Lavadora LG Carga Superior WT16BSB 16Kg Negra"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price5" runat="server" Text="S/ 1,499.00"></asp:Label>
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku5" runat="server" Text="SKU:23456" ForeColor="#669999"></asp:Label>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+						
+
+							<asp:Image ID="Producto6" runat="server" ImageUrl="images/product-6.jpg" />
+							<asp:Button ID="Button6" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button6_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name6" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Licuadora Oster BLSTKAG-BPB Negro"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price6" runat="server" Text="S/ 239.00"></asp:Label>
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku6" runat="server" Text="SKU:677866" ForeColor="#669999"></asp:Label>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							<asp:Image ID="Producto7" runat="server" ImageUrl="images/product-7.jpg" />
+							<asp:Button ID="Button7" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button7_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name7" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Cocina Pro 425 4 Hornillas Inox"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price7" runat="server" Text="S/ 1,099.00"></asp:Label> 
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku7" runat="server" Text="SKU:224468" ForeColor="#669999"></asp:Label>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+							
+							<asp:Image ID="Producto8" runat="server" ImageUrl="images/product-8.jpg" />
+							<asp:Button ID="Button8" CssClass="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 " runat="server" Text="Vista Rapida" OnClick="Button8_Click"   />
+						</div>
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								
+								<asp:Label ID="name8" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6" runat="server" Text="Cocina Granada 4 Hornillas Quarzo Croma"></asp:Label>
+								
+								<asp:Label class="stext-105 cl3" ID="price8" runat="server" Text="S/ 899.00"></asp:Label>
+								<asp:Label class="stext-105 cl3 stext-104" ID="sku8" runat="server" Text="SKU:97362" ForeColor="#669999"></asp:Label>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+			</form>
+			</div>
+
+			<!-- Cargar mas -->
+			<div class="flex-c-m flex-w w-full p-t-45">
+				<a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+					Cargar mas
+				</a>
+			</div>
+
+		</div>
+	</div>
+		
